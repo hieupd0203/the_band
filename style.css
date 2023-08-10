@@ -303,11 +303,15 @@ body {
     .nav-item:last-child:hover .subnav {
       display: block;
     }
+    .nav-item:last-child{
+      position: relative;
+    }
     .subnav{
         display: none;
         list-style: none;
         background-color: #fff;
         width: 20rem;
+        position: absolute;
     }
     .subnav-link{
       text-decoration: none;
